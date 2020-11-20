@@ -26,7 +26,13 @@
 				</div>
 				<div class="quickInfo">
 					<h2 id="imePrezime">Asad Bašić</h2>
-					<i>Web Developer</i>
+					<i>Web Developer</i> <br>
+					<div class="informacije">
+						<span id="godinaOld"></span> years old <br>
+						asad.basic@protonmail.com<br>
+						Sarajevo
+					</div>
+
 				</div>
 			</div>
 
@@ -49,6 +55,10 @@
 			}
 			prevScrollpos = currentScrollPos;
 		}
+		</script>
+
+		<script>
+			document.getElementById("godinaOld").innerHTML = new Date().getFullYear()-1998;
 		</script>
 
 	</body>

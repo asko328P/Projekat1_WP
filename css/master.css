@@ -16,17 +16,27 @@ body{
 
 }
 #navbar a{
-
-
-	float: left;
+	/*float: left;
 	color: #C1C1C1;
 	text-align: center;
 	padding: 21px;
 	text-decoration: none;
 	font-size: 17px;
 	padding-right: 80px;
+	text-shadow: 3px 3px black;*/
+	float: left;
+	color: #C1C1C1;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
 	text-shadow: 3px 3px black;
+	width: 180px;
+	max-width: 48vw;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
 }
+
 
 
 #navbar a:hover{
@@ -40,7 +50,7 @@ body{
 	min-width: 80vw;
 	margin-bottom: 30px;
 	*/
-
+	margin-top: 10px;
 	margin-left: 3vw;
 	margin-right: 3vw;
 	margin-bottom: 50px;
@@ -61,6 +71,7 @@ body{
 }
 .krugSlika{
 	margin: auto;
+	margin-top: 50px;
 	height: 13vw;
   width: 13vw;
 	min-width:200px;
@@ -71,10 +82,16 @@ body{
 }
 .quickInfo{
 	text-align: center;
+	font-size: 23px;
+
 }
 #imePrezime{
 	color: white;
 }
 #foot{
-	
+
+}
+.quickInfo .informacije{
+	padding-top: 12px;
+	font-size: 14px;
 }
