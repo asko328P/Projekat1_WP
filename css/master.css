@@ -14,7 +14,9 @@ body{
 	display: block;
 	transition: top 0.5s;
 	padding: 0px;
-	box-shadow:10px 5px 5px rgba(0,0,0,0.7);
+	box-shadow:10px 5px 5px rgba(0,0,0,0.4);
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
 
 }
 #navbar a{
@@ -52,13 +54,20 @@ body{
 	min-width: 80vw;
 	margin-bottom: 30px;
 	*/
+	/*
 	margin-top: 10px;
 	margin-left: 3vw;
 	margin-right: 3vw;
 	margin-bottom: 50px;
+	*/
+	margin:auto;
+	margin-top: 10px;
+	margin-bottom: 50px;
+
+	max-width: 969px;
 
 
-	box-shadow:10px 20px 20px rgba(0,0,0,0.5);
+	box-shadow:20px 20px 20px rgba(0,0,0,0.6);
 	background-color: #080808;
 	border: 1px solid #161616;
 	border-radius: 11px;
@@ -96,4 +105,8 @@ body{
 .quickInfo .informacije{
 	padding-top: 12px;
 	font-size: 14px;
+}
+
+a:visited{
+	color: #DA7645;
 }
