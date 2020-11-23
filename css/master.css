@@ -100,7 +100,9 @@ body{
 	color: white;
 }
 #foot{
-
+	min-width: 100%;
+	margin: 0px;
+	margin-top: 50px;
 }
 .quickInfo .informacije{
 	padding-top: 12px;
@@ -116,6 +118,7 @@ a:visited{
 	padding-right: 10%;*/
 	display: flex;
 	flex-wrap: wrap;
+
 }
 .languages{
 	display: inline-block;
@@ -124,7 +127,7 @@ a:visited{
 	min-width: 330px;
 
 	font-size: 16px;
-	margin-left: 1vw;
+	margin: 2px;
 	padding: 5px;
 	border: 1px solid #131313;
 	border-radius: 10px;
@@ -156,10 +159,9 @@ a:visited{
 
 	flex: 1;
 	min-width: 200px;
-
+	margin: 2px;
 
 	font-size: 16px;
-	margin: 10px;
 	padding: 5px;
 	border: 1px solid #131313;
 	border-radius: 10px;
@@ -171,9 +173,9 @@ a:visited{
 	vertical-align: top;
 	flex: 1;
 	min-width: 200px;
-
+	margin: 2px;
 	font-size: 16px;
-	margin: auto;
+
 	padding: 5px;
 	border: 1px solid #131313;
 	border-radius: 10px;
