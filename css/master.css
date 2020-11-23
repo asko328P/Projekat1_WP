@@ -110,3 +110,73 @@ body{
 a:visited{
 	color: #DA7645;
 }
+
+#skillovi{
+	/*padding-left: 10%;
+	padding-right: 10%;*/
+	display: flex;
+	flex-wrap: wrap;
+}
+.languages{
+	display: inline-block;
+	vertical-align: top;
+	flex: 1;
+	min-width: 330px;
+
+	font-size: 16px;
+	margin-left: 1vw;
+	padding: 5px;
+	border: 1px solid #131313;
+	border-radius: 10px;
+	color: #898989;
+	text-align: left;
+}
+.languages img{
+	width: 16px;
+	height: 16px;
+	float: right;
+	margin-left: 3px;
+}
+.languages i{
+	font-size: 23px;
+}
+.languages .nabrajanje{
+	padding-right: 4px;
+}
+.nabrajanje ol li{
+	list-style-type: none;
+
+	margin-top: 8px;
+	background-color: #0B0B0B;
+	list-style: square;
+}
+.progLanguages{
+	display: inline-block;
+	vertical-align: top;
+
+	flex: 1;
+	min-width: 200px;
+
+
+	font-size: 16px;
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #131313;
+	border-radius: 10px;
+	color: #898989;
+	text-align: left;
+}
+.softveri{
+	display:inline;
+	vertical-align: top;
+	flex: 1;
+	min-width: 200px;
+
+	font-size: 16px;
+	margin: auto;
+	padding: 5px;
+	border: 1px solid #131313;
+	border-radius: 10px;
+	color: #898989;
+	text-align: left;
+}
