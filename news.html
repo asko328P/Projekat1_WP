@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<script src="https://use.fontawesome.com/607aedff07.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/master.css">
+		<link href="./fontAwesome/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
+		<link rel="icon" href="https://image.flaticon.com/icons/png/512/32/32341.png">
+		<title>Welcome to my page. Enjoy your stay!</title>
+	</head>
+	<body>
+
+		<ul id="navbar">
+		 <li><a href="index.html"><i class="fas fa-home"></i> Landing page</a></li>
+		 <li><a href="news.asp"><i class="fas fa-blog"></i> Blog</a></li>
+		 <li><a href="#foot"><i class="far fa-id-card"></i> Contact</a></li>
+		 <li><a href="about.asp"><i class="fas fa-images"></i> 	Galeries</a></li>
+		</ul>
+		<br><br><br>
+		<div class="pan blog">
+			<h1>Blogpost: </h1>
+			<h2 id="eins">OpenStreetMap</h2>
+			<p>
+				OpenStreetMap is a community project to create a free (as in freedom, not as in beer) editable map.
+				Started in 2004, this project has amassed users from all over the world, as many as 7,000,000 unique users.
+				This trend is exponentionally rising as more and more people and bussinesses realize the importance of free maps.
+				With many 'big players' starting to contribute and rely on them, such as Facebook, Apple, Amazon and others.
+			</p>
+			<h3 id="zwo">The OpenStreetMap Foundation</h3>
+			<p>
+				The OpenStreetMap Foundation (or short as FSF) is a non-profit organization which owns and maintains all of the data
+				that the OSM is made of. They are responsible for the creating the initiative for providing free geographic data to anyone.
+				That even includes comercial services. They are supporting but not controlling the OSM project.
+				<img src="slike/blog/osm/OSM.png" alt=""><i>The OSM logo</i>
+			</p>
+			<h3 id="drei">Quality? Is it good as paid alternatives?</h3>
+			<p>
+				The first speculation or doubts someone might have would probably sound something like: Anybody can put everything they want, quality would be compromised.
+				And they have every right to be concerned, but thankfuly the OSM community absolutely takes ground truth as their top priority.
+				Every change that might be incorrect, a peer OSM-mapper can quickly and easily correct. This also allows for new information about
+				roads, like construction zones, new roads etc. to be rapidly added, much faster than any comercial alternative out there.
+				Here is a comparison video between a Navi unit using OSM maps and paid Garmin maps (left is OSM, right is Garmin)
+
+				<iframe width="100%" height="400px" src="https://www.youtube.com/embed/aSLwiFA9t88?start=32" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</p>
+			<h3 id="vier">Some of the more popular map editors</h3>
+			<table class="tablaEditora">
+				<thead>
+					<tr>
+						<th style="weight:1337">Editors:</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>ArcGIS Editor</td>
+					</tr>
+					<tr>
+						<td>Deriviste</td>
+					</tr>
+					<tr>
+						<td>GNOME maps</td>
+					</tr>
+					<tr>
+						<td>ID</td>
+					</tr>
+					<tr>
+						<td>Merkaator</td>
+					</tr>
+					<tr>
+						<td>OsmAnd</td>
+					</tr>
+					<tr>
+						<td>Potlach</td>
+					</tr>
+					<tr>
+						<td>RapiD</td>
+					</tr>
+					<tr>
+						<td>StreetComplete</td>
+					</tr>
+					<tr>
+						<td>Vespucci</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<br><br>
+			<h4>Contents:</h4>
+			<ol>
+				<li><a href="#eins">OpenStreetMap</a></li>
+				<li><a href="#zwo">The OpenStreetMap Foundation</a></li>
+				<li><a href="#drei">Quality? Is it good as paid alternatives?</a></li>
+				<li><a href="#vier">Some of the more popular map editors</a></li>
+			</ol>
+
+		</div>
+
+		<div class="blog pan">
+			<h1>Blogpost:</h1>
+		</div>
+
+
+
+		<div id="foot" class="pan">
+			<div class="socijalneIkone">
+				My social media: <br>
+				<a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+				<a href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
+				<a href="https://www.reddit.com"><i class="fab fa-reddit-square"></i></a>
+				<a href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></a>
+			</div>
+			<div class="kontaktForma"> <!-- sa Bootstrapovim form generatorom -->
+				<form class="form-horizontal">
+				<fieldset>
+
+				<!-- Form Name -->
+				<legend>You can directly contact me here:</legend>
+
+				<!-- Text input-->
+				<div class="form-group">
+					<label class="col-md-4 control-label" for="textinput">Name</label>
+					<div class="col-md-4">
+					<input id="textinput" name="textinput" type="text" placeholder="Mujo Mujić" class="form-control input-md">
+
+					</div>
+				</div>
+
+				<!-- Text input-->
+				<div class="form-group">
+					<label class="col-md-4 control-label" for="textinputMail">Your e-mail</label>
+					<div class="col-md-4">
+					<input id="textinputMail" name="textinputMail" type="text" placeholder="example@host.com" class="form-control input-md" required="">
+
+					</div>
+				</div>
+
+				<!-- Textarea -->
+				<div class="form-group">
+					<label class="col-md-4 control-label" for="textareaNaslov">Subject</label>
+					<div class="col-md-4">
+						<textarea class="form-control" id="textareaNaslov" name="textareaNaslov"></textarea>
+					</div>
+				</div>
+
+				<!-- Textarea -->
+				<div class="form-group">
+					<label class="col-md-4 control-label" for="textareaSadrzaj">Message content</label>
+					<div class="col-md-4">
+						<textarea class="form-control" id="textareaSadrzaj" name="textareaSadrzaj"></textarea>
+					</div>
+				</div>
+				<br>
+				<!-- Button -->
+				<div class="form-group">
+					<label class="col-md-4 control-label" for="singlebuttonSubmit"></label>
+					<div class="col-md-4">
+						<button id="singlebuttonSubmit" name="singlebuttonSubmit" class="btn btn-inverse">Sumbit</button>
+					</div>
+				</div>
+
+				</fieldset>
+				</form>
+			</div>
+
+			<br>
+			<div class="vracajNaHome">
+				<a href="index.html"><i class="fas fa-home"></i> Return to the landing page</a>
+			</div>
+
+
+		</div>
+
+
+
+		<script> <!-- preuzeto sa w3schools -->
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+			if (prevScrollpos > currentScrollPos) {
+				document.getElementById("navbar").style.top = "0";
+			} else {
+				document.getElementById("navbar").style.top = "-150px";
+			}
+			prevScrollpos = currentScrollPos;
+		}
+		</script>
+
+		<script>
+			document.getElementById("godinaOld").innerHTML = new Date().getFullYear()-1998;
+		</script>
+
+	</body>
+</html>

@@ -48,6 +48,9 @@ body{
 #navbar a:hover{
 	text-shadow: 0 0 10px #FFFFFF;
 }
+#navbar a:active{
+	text-shadow: 0 0 20px #FFFFFF;
+}
 
 .pan{
 	/*
@@ -83,10 +86,22 @@ body{
 
 }
 .krugSlika{
+
 	margin: auto;
 	margin-top: 50px;
 	height: 13vw;
-  width: 13vw;
+	width: 13vw;
+	min-width:200px;
+	min-height:200px;
+
+
+	border-radius: 50%;
+}
+.krugSlika img{
+
+	filter: grayscale(20%);
+	height: 13vw;
+	width: 13vw;
 	min-width:200px;
 	min-height:200px;
 	background-color: #262626;
@@ -101,11 +116,7 @@ body{
 #imePrezime{
 	color: white;
 }
-#foot{
-	min-width: 100%;
-	margin: 0px;
-	margin-top: 200px;
-}
+
 .quickInfo .informacije{
 	padding-top: 12px;
 	font-size: 14px;
@@ -219,4 +230,100 @@ a:visited{
 	border-top:2px solid #141414;
 	margin:20px;
 	clear: both;
+}
+#foot{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	min-width: 100%;
+	margin: 0px;
+	font-size: 20px;
+	margin-top: 200px;
+}
+.socijalneIkone i{
+	font-size: 40px;
+	padding: 6px;
+
+}
+.socijalneIkone{
+
+	min-width: 300px;
+	margin: 15px;
+}
+.kontaktForma{
+
+}
+.kontaktForma fieldset{
+
+
+	margin: 20px;
+	border: 2px solid #24242d !important;
+	max-width: 40%;
+
+}
+.kontaktForma input{
+	color: grey;
+	background-color: transparent !important;
+	border:none !important;
+	margin: 6px;
+}
+.kontaktForma textarea{
+	color: grey;
+	background-color: transparent !important;
+	font-size: 18px;
+	border:1px solid #0D0D0D !important;
+}
+
+.vracajNaHome{
+	width: 100%;
+	text-align: center;
+	color: #343434;
+	margin: 20px;
+}
+.vracajNaHome a:visited{
+
+	color: #343434;
+
+}
+
+.blog{
+	text-indent: 30px;
+	text-align: justify;
+	text-justify: inter-word;
+	padding-left: 5%;
+	padding-right:5%;
+	color: #454545;
+
+
+}
+.blog img{
+	padding-left: 10px;
+	padding-top: 10px;
+	display: block;
+	width: 200px;
+	margin: 10px;
+	background-color: #111111;
+	border-radius: 20px;
+}
+.blog iframe{
+	margin-top: 5%;
+}
+.blog table{
+	width: 100%;
+	background-color: #111111;
+	border-collapse: collapse;
+	border-width: 2px solid #151100;
+	color: grey;
+	margin-bottom: 5%;
+	text-align: center;
+	border-radius: 20px;
+}
+.blog table td, .blog table th{
+	padding: 4px;
+
+}
+.blog a{
+	text-decoration: none !important;
+	color: #444444;
 }
