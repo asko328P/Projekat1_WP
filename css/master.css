@@ -3,6 +3,8 @@ body{
 	background-image: url('../slike/pozadina/background.jpg');
 	background-attachment: fixed;
 	background-color: #16181C;
+	font-family: arial;
+	color: #555555;
 }
 
 #navbar{
@@ -241,6 +243,12 @@ a:visited{
 	font-size: 20px;
 	margin-top: 200px;
 }
+#foot a{
+	color: #666666;
+}
+#foot a:visited{
+	color: #444444;
+}
 .socijalneIkone i{
 	font-size: 40px;
 	padding: 6px;
@@ -293,7 +301,7 @@ a:visited{
 	text-justify: inter-word;
 	padding-left: 5%;
 	padding-right:5%;
-	color: #454545;
+	color: #555555;
 
 
 }
@@ -326,4 +334,35 @@ a:visited{
 .blog a{
 	text-decoration: none !important;
 	color: #444444;
+}
+.gal a h2{
+	text-align: center !important;
+	text-decoration: none !important;
+	color: #444444;
+
+}
+.gal a{
+	text-align: center !important;
+	text-decoration: none !important;
+	color: #444444;
+
+}
+.gall1{
+	padding: 1%;
+	clear: both;
+}
+.gall1 img{
+	width: 30%;
+}
+.gall1 p{
+	float: right;
+
+}
+.boot{
+	display: flex;
+	flex-flow: row wrap;
+}
+.viddiv{
+	margin: 1%;
+	flex: 1 1 200px
 }
